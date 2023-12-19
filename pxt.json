@@ -1,0 +1,45 @@
+{
+    "name": "EarthEd IoT Programs Tutorials",
+    "version": "2.0.9",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.1.7",
+        "smarthome-kit": "github:tinkertanker/pxt-smarthome#v2.2.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "T_Servo.md",
+        "T_LED.md",
+        "T_DHT11.md",
+        "T_Connect.md",
+        "tutorial-info-cache.json",
+        "T_Light_Sensor.md",
+        "T_Ultrasonic.md",
+        "T_Fan.md",
+        "T_Water_Level_Sensor.md",
+        "T_PIR_Sensor.md",
+        "T_OLED.md",
+        "T_Moisture_Sensor.md",
+        "T_Crash.md",
+        "T_Radio_Chat.md",
+        "T_IoT_Network.md",
+        "T_IoT_Network_2.md",
+        "T_IoT_Network_3.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
